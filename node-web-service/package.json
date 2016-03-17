@@ -1,0 +1,14 @@
+{
+  "name": "web-service",
+  "version": "1.0.0",
+  "description": "Example web service using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ron Brasher",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.0"
+  }
+}

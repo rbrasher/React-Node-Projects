@@ -1,0 +1,276 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\nodeprojects\\dev-project',
+6 verbose install   [ 'body-parser',
+6 verbose install     'cookie-parser',
+6 verbose install     'debug',
+6 verbose install     'ejs',
+6 verbose install     'express',
+6 verbose install     'mongoose',
+6 verbose install     'morgan',
+6 verbose install     'serve-favicon',
+6 verbose install     'datatables',
+6 verbose install     'datatables-plugins',
+6 verbose install     'datatables-responsive' ] ]
+7 info preinstall dev-project@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping body-parser@~1.10.2 C:\nodeprojects\dev-project
+10 verbose already installed skipping cookie-parser@~1.3.3 C:\nodeprojects\dev-project
+11 verbose already installed skipping debug@~2.1.1 C:\nodeprojects\dev-project
+12 verbose already installed skipping ejs@~2.2.3 C:\nodeprojects\dev-project
+13 verbose already installed skipping express@~4.11.1 C:\nodeprojects\dev-project
+14 verbose already installed skipping mongoose@^3.8.22 C:\nodeprojects\dev-project
+15 verbose already installed skipping morgan@~1.5.1 C:\nodeprojects\dev-project
+16 verbose already installed skipping serve-favicon@~2.2.0 C:\nodeprojects\dev-project
+17 verbose cache add [ 'datatables@~1.10.4', null ]
+18 verbose cache add name=undefined spec="datatables@~1.10.4" args=["datatables@~1.10.4",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'datatables@~1.10.4',
+19 verbose parsed url   path: 'datatables@~1.10.4',
+19 verbose parsed url   href: 'datatables@~1.10.4' }
+20 verbose cache add [ 'datatables-plugins@~1.0.1', null ]
+21 verbose cache add name=undefined spec="datatables-plugins@~1.0.1" args=["datatables-plugins@~1.0.1",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'datatables-plugins@~1.0.1',
+22 verbose parsed url   path: 'datatables-plugins@~1.0.1',
+22 verbose parsed url   href: 'datatables-plugins@~1.0.1' }
+23 verbose cache add [ 'datatables-responsive@~1.0.3', null ]
+24 verbose cache add name=undefined spec="datatables-responsive@~1.0.3" args=["datatables-responsive@~1.0.3",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'datatables-responsive@~1.0.3',
+25 verbose parsed url   path: 'datatables-responsive@~1.0.3',
+25 verbose parsed url   href: 'datatables-responsive@~1.0.3' }
+26 verbose cache add name="datatables" spec="~1.10.4" args=["datatables","~1.10.4"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '~1.10.4',
+27 verbose parsed url   path: '~1.10.4',
+27 verbose parsed url   href: '~1.10.4' }
+28 verbose addNamed [ 'datatables', '~1.10.4' ]
+29 verbose addNamed [ null, '>=1.10.4-0 <1.11.0-0' ]
+30 verbose cache add name="datatables-plugins" spec="~1.0.1" args=["datatables-plugins","~1.0.1"]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: '~1.0.1',
+31 verbose parsed url   path: '~1.0.1',
+31 verbose parsed url   href: '~1.0.1' }
+32 verbose addNamed [ 'datatables-plugins', '~1.0.1' ]
+33 verbose addNamed [ null, '>=1.0.1-0 <1.1.0-0' ]
+34 verbose cache add name="datatables-responsive" spec="~1.0.3" args=["datatables-responsive","~1.0.3"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '~1.0.3',
+35 verbose parsed url   path: '~1.0.3',
+35 verbose parsed url   href: '~1.0.3' }
+36 verbose addNamed [ 'datatables-responsive', '~1.0.3' ]
+37 verbose addNamed [ null, '>=1.0.3-0 <1.1.0-0' ]
+38 silly lockFile 10c09fe8-datatables-1-10-4 datatables@~1.10.4
+39 verbose lock datatables@~1.10.4 C:\Users\Ron\AppData\Roaming\npm-cache\10c09fe8-datatables-1-10-4.lock
+40 silly lockFile 1cdaa97e-datatables-plugins-1-0-1 datatables-plugins@~1.0.1
+41 verbose lock datatables-plugins@~1.0.1 C:\Users\Ron\AppData\Roaming\npm-cache\1cdaa97e-datatables-plugins-1-0-1.lock
+42 silly lockFile 72605273-datatables-responsive-1-0-3 datatables-responsive@~1.0.3
+43 verbose lock datatables-responsive@~1.0.3 C:\Users\Ron\AppData\Roaming\npm-cache\72605273-datatables-responsive-1-0-3.lock
+44 silly addNameRange { name: 'datatables',
+44 silly addNameRange   range: '>=1.10.4-0 <1.11.0-0',
+44 silly addNameRange   hasData: false }
+45 silly addNameRange { name: 'datatables-plugins',
+45 silly addNameRange   range: '>=1.0.1-0 <1.1.0-0',
+45 silly addNameRange   hasData: false }
+46 verbose request where is /datatables
+47 verbose request registry https://registry.npmjs.org/
+48 verbose request id 74c85f38dce2fdfd
+49 verbose url raw /datatables
+50 verbose url resolving [ 'https://registry.npmjs.org/', './datatables' ]
+51 verbose url resolved https://registry.npmjs.org/datatables
+52 verbose request where is https://registry.npmjs.org/datatables
+53 info trying registry request attempt 1 at 14:27:14
+54 http GET https://registry.npmjs.org/datatables
+55 verbose request where is /datatables-plugins
+56 verbose request registry https://registry.npmjs.org/
+57 verbose url raw /datatables-plugins
+58 verbose url resolving [ 'https://registry.npmjs.org/', './datatables-plugins' ]
+59 verbose url resolved https://registry.npmjs.org/datatables-plugins
+60 verbose request where is https://registry.npmjs.org/datatables-plugins
+61 info trying registry request attempt 1 at 14:27:14
+62 http GET https://registry.npmjs.org/datatables-plugins
+63 silly addNameRange { name: 'datatables-responsive',
+63 silly addNameRange   range: '>=1.0.3-0 <1.1.0-0',
+63 silly addNameRange   hasData: false }
+64 verbose request where is /datatables-responsive
+65 verbose request registry https://registry.npmjs.org/
+66 verbose url raw /datatables-responsive
+67 verbose url resolving [ 'https://registry.npmjs.org/', './datatables-responsive' ]
+68 verbose url resolved https://registry.npmjs.org/datatables-responsive
+69 verbose request where is https://registry.npmjs.org/datatables-responsive
+70 info trying registry request attempt 1 at 14:27:14
+71 http GET https://registry.npmjs.org/datatables-responsive
+72 http 404 https://registry.npmjs.org/datatables-responsive
+73 verbose headers { date: 'Thu, 05 Feb 2015 21:27:14 GMT',
+73 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+73 verbose headers   'content-type': 'application/json',
+73 verbose headers   'cache-control': 'max-age=0',
+73 verbose headers   'content-length': '52',
+73 verbose headers   'accept-ranges': 'bytes',
+73 verbose headers   via: '1.1 varnish',
+73 verbose headers   age: '0',
+73 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+73 verbose headers   'x-cache': 'MISS',
+73 verbose headers   'x-cache-hits': '0',
+73 verbose headers   'x-timer': 'S1423171634.436436,VS0,VE35',
+73 verbose headers   'keep-alive': 'timeout=10, max=50',
+73 verbose headers   connection: 'Keep-Alive' }
+74 silly registry.get cb [ 404,
+74 silly registry.get   { date: 'Thu, 05 Feb 2015 21:27:14 GMT',
+74 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+74 silly registry.get     'content-type': 'application/json',
+74 silly registry.get     'cache-control': 'max-age=0',
+74 silly registry.get     'content-length': '52',
+74 silly registry.get     'accept-ranges': 'bytes',
+74 silly registry.get     via: '1.1 varnish',
+74 silly registry.get     age: '0',
+74 silly registry.get     'x-served-by': 'cache-sjc3131-SJC',
+74 silly registry.get     'x-cache': 'MISS',
+74 silly registry.get     'x-cache-hits': '0',
+74 silly registry.get     'x-timer': 'S1423171634.436436,VS0,VE35',
+74 silly registry.get     'keep-alive': 'timeout=10, max=50',
+74 silly registry.get     connection: 'Keep-Alive' } ]
+75 silly lockFile 72605273-datatables-responsive-1-0-3 datatables-responsive@~1.0.3
+76 silly lockFile 72605273-datatables-responsive-1-0-3 datatables-responsive@~1.0.3
+77 http 404 https://registry.npmjs.org/datatables-plugins
+78 verbose headers { date: 'Thu, 05 Feb 2015 21:27:14 GMT',
+78 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+78 verbose headers   'content-type': 'application/json',
+78 verbose headers   'cache-control': 'max-age=0',
+78 verbose headers   'content-length': '52',
+78 verbose headers   'accept-ranges': 'bytes',
+78 verbose headers   via: '1.1 varnish',
+78 verbose headers   age: '0',
+78 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+78 verbose headers   'x-cache': 'MISS',
+78 verbose headers   'x-cache-hits': '0',
+78 verbose headers   'x-timer': 'S1423171634.433491,VS0,VE89',
+78 verbose headers   'keep-alive': 'timeout=10, max=50',
+78 verbose headers   connection: 'Keep-Alive' }
+79 silly registry.get cb [ 404,
+79 silly registry.get   { date: 'Thu, 05 Feb 2015 21:27:14 GMT',
+79 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+79 silly registry.get     'content-type': 'application/json',
+79 silly registry.get     'cache-control': 'max-age=0',
+79 silly registry.get     'content-length': '52',
+79 silly registry.get     'accept-ranges': 'bytes',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     age: '0',
+79 silly registry.get     'x-served-by': 'cache-sjc3122-SJC',
+79 silly registry.get     'x-cache': 'MISS',
+79 silly registry.get     'x-cache-hits': '0',
+79 silly registry.get     'x-timer': 'S1423171634.433491,VS0,VE89',
+79 silly registry.get     'keep-alive': 'timeout=10, max=50',
+79 silly registry.get     connection: 'Keep-Alive' } ]
+80 silly lockFile 1cdaa97e-datatables-plugins-1-0-1 datatables-plugins@~1.0.1
+81 silly lockFile 1cdaa97e-datatables-plugins-1-0-1 datatables-plugins@~1.0.1
+82 http 200 https://registry.npmjs.org/datatables
+83 silly registry.get cb [ 200,
+83 silly registry.get   { date: 'Thu, 05 Feb 2015 21:27:14 GMT',
+83 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+83 silly registry.get     etag: '"21G4UE5PRJ3YM1KR0N42BV6YY"',
+83 silly registry.get     'content-type': 'application/json',
+83 silly registry.get     'cache-control': 'max-age=60',
+83 silly registry.get     'content-length': '5155',
+83 silly registry.get     'accept-ranges': 'bytes',
+83 silly registry.get     via: '1.1 varnish',
+83 silly registry.get     age: '0',
+83 silly registry.get     'x-served-by': 'cache-sjc3131-SJC',
+83 silly registry.get     'x-cache': 'MISS',
+83 silly registry.get     'x-cache-hits': '0',
+83 silly registry.get     'x-timer': 'S1423171634.433084,VS0,VE152',
+83 silly registry.get     vary: 'Accept',
+83 silly registry.get     'keep-alive': 'timeout=10, max=50',
+83 silly registry.get     connection: 'Keep-Alive' } ]
+84 silly addNameRange number 2 { name: 'datatables',
+84 silly addNameRange   range: '>=1.10.4-0 <1.11.0-0',
+84 silly addNameRange   hasData: true }
+85 silly addNameRange versions [ 'datatables', [ '1.10.5-dev' ] ]
+86 verbose addNamed [ 'datatables', '1.10.5-dev' ]
+87 verbose addNamed [ '1.10.5-dev', '1.10.5-dev' ]
+88 silly lockFile 62f063cc-datatables-1-10-5-dev datatables@1.10.5-dev
+89 verbose lock datatables@1.10.5-dev C:\Users\Ron\AppData\Roaming\npm-cache\62f063cc-datatables-1-10-5-dev.lock
+90 silly lockFile 49a82fa4-tables-datatables-1-10-5-dev-tgz https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz
+91 verbose lock https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz C:\Users\Ron\AppData\Roaming\npm-cache\49a82fa4-tables-datatables-1-10-5-dev-tgz.lock
+92 verbose addRemoteTarball [ 'https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz',
+92 verbose addRemoteTarball   '6915dd465f1684a1c391a85cd7802f80c224aeda' ]
+93 info retry fetch attempt 1 at 14:27:14
+94 verbose fetch to= C:\Users\Ron\AppData\Local\Temp\npm-3856-UKTIPqZw\registry.npmjs.org\datatables\-\datatables-1.10.5-dev.tgz
+95 http GET https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz
+96 http 200 https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz
+97 silly lockFile 49a82fa4-tables-datatables-1-10-5-dev-tgz https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz
+98 silly lockFile 49a82fa4-tables-datatables-1-10-5-dev-tgz https://registry.npmjs.org/datatables/-/datatables-1.10.5-dev.tgz
+99 silly lockFile 62f063cc-datatables-1-10-5-dev datatables@1.10.5-dev
+100 silly lockFile 62f063cc-datatables-1-10-5-dev datatables@1.10.5-dev
+101 silly lockFile 10c09fe8-datatables-1-10-4 datatables@~1.10.4
+102 silly lockFile 10c09fe8-datatables-1-10-4 datatables@~1.10.4
+103 error 404 404 Not Found: datatables-responsive
+103 error 404
+103 error 404 'datatables-responsive' is not in the npm registry.
+103 error 404 You should bug the author to publish it
+103 error 404 It was specified as a dependency of 'dev-project'
+103 error 404
+103 error 404 Note that you can also install from a
+103 error 404 tarball, folder, or http url, or git url.
+104 error System Windows_NT 6.1.7601
+105 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+106 error cwd C:\nodeprojects\dev-project
+107 error node -v v0.10.35
+108 error npm -v 1.4.28
+109 error code E404
+110 verbose exit [ 1, true ]

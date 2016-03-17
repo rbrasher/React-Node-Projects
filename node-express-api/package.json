@@ -1,0 +1,23 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "API"
+  ],
+  "author": "Ron Brasher",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.11.2",
+    "firebase": "^2.2.0",
+    "mongoose": "^3.8.23",
+    "morgan": "^1.5.1"
+  }
+}

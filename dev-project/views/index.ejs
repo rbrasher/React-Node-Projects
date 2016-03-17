@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> 
+<!--<![endif]-->
+<head>
+<!-- Meta-Information -->
+<title>Dev Project</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="Dev Project">
+<meta name="author" content="Ron Brasher">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
+<link rel="stylesheet" href="/javascripts/metisMenu/dist/metisMenu.min.css">
+<link rel="stylesheet" href="/javascripts/morrisjs/morris.css" />
+
+<link rel="stylesheet" href="/stylesheets/style.css">
+<link rel="stylesheet" href="/stylesheets/sb-admin-2.css">
+<link rel="stylesheet" href="/stylesheets/timeline.css">
+<link rel="stylesheet" href="/stylesheets/modern-business.css">
+<!-- Custom Fonts -->
+<link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body ng-app="DevProject">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- You'll want to use a responsive image option so this logo looks good on devices - I recommend using something like retina.js (do a quick Google search for it and you'll find it) -->
+                <a class="navbar-brand" href="#/">DevProject</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a ng-href="#/services">Services {{test}}</a>
+                    </li>
+                    <li><a ng-href="#/pricing">Pricing Table</a>
+                    </li>
+                    <li><a ng-href="#/about">About</a>
+                    </li>
+                    <li><a ng-href="#/faq">FAQ</a>
+                    </li>
+                    <li><a ng-href="#/contact">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a ng-href="#/blog">List of Posts</a>
+                            </li>
+                            <li><a ng-href="#/blog/post">View One Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li ng-show="{{auth}}"><a ng-href="#/logout">Logout</a></li>
+                    
+                    <li ng-hide="{{auth}}"><a ng-href="#/login">Login {{username}}</a></li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Our Website Content Goes Here -->
+    <div ng-view></div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; DevProject 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Vendor: Javascripts -->
+<script src="/javascripts/jquery.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+
+<!-- Vendor: Angular, followed by our custom Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>
+
+<!-- Our Website Javascripts -->
+<script src="/javascripts/frontApp.js"></script>
+
+</body>
+</html>
