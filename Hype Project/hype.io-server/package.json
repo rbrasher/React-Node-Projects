@@ -1,0 +1,22 @@
+{
+  "name": "hype.io-server",
+  "version": "1.0.0",
+  "description": "Restful API connected to Firebase",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://bitbucket.org/hype-io/hype.io-server"
+  },
+  "author": "Ron Brasher",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.11.2",
+    "firebase": "^2.2.0",
+    "morgan": "^1.5.1",
+    "request": "^2.34.0"
+  }
+}

@@ -1,0 +1,39 @@
+<ion-view>
+  <ion-nav-title>{{navigation.title}}</ion-nav-title>
+  <ion-content>
+
+    <div class="list">
+      <div ng-repeat="navItem in navigation.navItems | filter:navSearchFilter">
+        <div ng-controller="ContentController as content">
+          <div ng-hide="content.hasItem()">Not found</div>
+          <a ui-sref="content({id: navItem.content})" ng-show="content.hasItem()" class="item item-thumbnail-left">
+            <img ng-if="content.item['content-type'] === 'video/youtube'" ng-src="{{content.item.content.videoId | youtubeThumbnailUrlFilter}}" title="{{content.item.title}}" />
+            <img ng-if="content.item['content-type'] === 'video/vimeo'" ng-src="{{content.item.content.videoId | vimeoThumbnailUrlFilter}}" title="{{content.item.title}}" />
+            <img ng-if="content.item['content-type'] === 'text/html' || content.item['content-type'] === 'video/hosted' || content.item['content-type'] === 'video/wistia'" ng-src="images/placeholder_thumb.jpg" title="{{content.item.title}}" />
+
+            <h2>{{content.item.title}}</h2>
+            <p ng-if="content.hasAuthor()" class="author">published by: {{content.item.author}}</p>
+            <p>{{content.item.content.description}}</p>
+          </a>
+        </div>
+
+        <div class="list" ng-show="navigation.hasItems(navItem.items)">
+          <div ng-repeat="navChild in navItem.items | filter:navSearchFilter">
+            <div ng-controller="ContentController as contentChild">
+              <a ui-sref="content({id: navChild.content})" class="item item-thumbnail-left">
+                <img ng-if="contentChild.item['content-type'] === 'video/youtube'" ng-src="{{contentChild.item.content.videoId | youtubeThumbnailUrlFilter}}" title="{{contentChild.item.title}}" />
+                <img ng-if="contentChild.item['content-type'] === 'video/vimeo'" ng-src="{{contentChild.item.content.videoId | vimeoThumbnailUrlFilter}}" title="{{contentChild.item.title}}" />
+                <img ng-if="contentChild.item['content-type'] === 'text/html' || contentChild.item['content-type'] === 'video/hosted' || contentChild.item['content-type'] === 'video/wistia'" ng-src="images/placeholder_thumb.jpg" title="{{contentChild.item.title}}" />
+
+                <h2>{{contentChild.item.title}}</h2>
+                <p ng-if="contentChild.hasAuthor()" class="author">published by: {{contentChild.item.author}}</p>
+                <p>{{contentChild.item.content.description}}</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+

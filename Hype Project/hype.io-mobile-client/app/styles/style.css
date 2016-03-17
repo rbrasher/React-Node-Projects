@@ -1,0 +1,26 @@
+/* Empty. Add your own CSS if you like */
+
+/* TODO: Remove this when wistia thumbnails are available */
+.illustration_icons{
+  background-image:url(http://cdn.wistia.com/assets/features/illustrations-356845c47dfdc2265fd670a5931a9a8a.png);
+  background-repeat:no-repeat;
+  background-size:580px;
+  display:inline-block;
+  vertical-align:middle
+}
+
+#sb_icon_2 { background-position:-195px -108px; width:183px; height:127px; margin-top:10px }
+/* End TODO: Remove this when wistia thumbnails are available */
+
+/*Override avatar styling*/
+.item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image {
+  border-radius: 15%;
+}
+.nav-bar-title {text-shadow: 1px 1px 0px #000;-webkit-font-smoothing: antialiased;}
+.tag-item a {font-size: 14px; color: #555; text-decoration: none; font-weight: bold;margin: 5px;float: left;font-style: italic;}
+.icon {text-shadow: 1px 1px 0px #000;}
+.ion-chevron-left {text-shadow: 1px 1px 0px #000;}
+.bar.bar-positive {box-shadow: 0 1px 5px #555;}
+.tabs-positive .tabs.tabs-default {box-shadow: 0 -1px 5px #555;}
+.custom {font-size: 13px !important;}
+p.author {font-size: 12px; font-style: italic;}

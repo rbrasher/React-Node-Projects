@@ -1,0 +1,114 @@
+{
+  "config": {
+    "description": "This is a sample project for testing.",
+    "name": "Sample Project"
+  },
+  "content": {
+    "-Jg7UMgpgx982Wq36AiN": {
+      "content": {
+        "description": "Today brings a brand new challenge to Dr Trayaurus' Challenge Colosseum, the FIVE NIGHTS AT FREDDY'S Challenge! Which one of us will be the quickest through the spooky Obsidian maze where Golden Freddy and his animatronic friends are waiting..",
+        "videoId": "CufLkCNizis"
+      },
+      "content-type": "video/youtube",
+      "permalink": "CufLkCNizis",
+      "status": "published",
+      "tags": [
+        "minecraft",
+        "gaming"
+      ],
+      "title": "Minecraft | FIVE NIGHTS AT FREDDY'S CHALLENGE | Mod Minigame",
+      "version": 1
+    },
+    "-Jg7UquhpJ1ocvwS-szt": {
+      "content": {
+        "description": "When you combine Slender and Minecraft.. This is the scary result.. Can I make it out alive?!",
+        "videoId": "NB6ulxpucOk"
+      },
+      "content-type": "video/youtube",
+      "permalink": "NB6ulxpucOk",
+      "status": "published",
+      "tags": ["minecraft"],
+      "title": "SCARY MINECRAFT | SlenderCraft",
+      "version": 1
+    },
+    "-Jg7VMnCvNTX-Q5Y4iHk": {
+      "content": {
+        "description": "Minecraft rollercoaster",
+        "videoId": "20954478"
+      },
+      "content-type": "video/vimeo",
+      "permalink": "20954478",
+      "status": "published",
+      "tags": ["minecraft"],
+      "title": "MineCraft Rollercoaster",
+      "version": 1
+    },
+    "-Jg7W2mLzfD2N36yRBse": {
+      "content": {
+        "author": "Matt",
+        "body": "This is a <strong>sample</strong> of <em>HTML</em> text."
+      },
+      "content-type": "text/html",
+      "permalink": "sample-html",
+      "status": "published",
+      "tags": [
+        "html",
+        "sample",
+        "text"
+      ],
+      "title": "Sample HTML Content",
+      "version": 1
+    },
+    "-Jg80KW8g9qU_2rkGrzp": {
+      "content": {
+        "description": "Introduction to earning money with webinars.",
+        "owner": "mobzen",
+        "videoId": "51x69zworm"
+      },
+      "content-type": "video/wistia",
+      "permalink": "51x69zworm",
+      "status": "published",
+      "tags": ["webinars"],
+      "title": "Introduction on the \"Exposure Model\"",
+      "version": 1
+    },
+    "-Zzzzzzzzzzzzzzzzzzz": {
+      "content": {
+        "description": "Shop kick.",
+        "owner": "mobzen",
+        "sources": [
+          {
+            "url": "https://42ndwus.blob.core.windows.net/public/videos/shopkick-vid.mov",
+            "content-type": "video/quicktime"
+          },
+          {
+            "url": "https://42ndwus.blob.core.windows.net/public/videos/shopkick-vid.mp4",
+            "content-type": "video/mp4"
+          },
+          {
+            "url": "https://42ndwus.blob.core.windows.net/public/videos/shopkick-vid.webmhd.webm",
+            "content-type": "video/webm"
+          }
+        ]
+      },
+      "content-type": "video/hosted",
+      "permalink": "shop-kick",
+      "status": "published",
+      "tags": ["shop"],
+      "title": "Shop Kick Title",
+      "version": 1
+    }
+  },
+  "navigation": [
+    {
+      "content": "-Jg7UMgpgx982Wq36AiN",
+      "items": [
+        {"content": "-Jg7UquhpJ1ocvwS-szt"},
+        {"content": "-Jg7VMnCvNTX-Q5Y4iHk"}
+      ]
+    },
+    {"content": "-Jg7W2mLzfD2N36yRBse"},
+    {"content": "-Jg80KW8g9qU_2rkGrzp"},
+    {"content": "-Zzzzzzzzzzzzzzzzzzz"}
+  ]
+}

@@ -1,0 +1,12 @@
+<ion-view>
+  <ion-nav-title ng-show="content.hasItem()">{{content.item.title}}</ion-nav-title>
+  <ion-content>
+    <div ng-hide="content.hasItem()">
+      Item <span ng-hide="content.hasContentType()">has no content type</span><span ng-show="content.hasContentType()">not found</span>
+    </div>
+    <div ng-show="content.hasItem()" class="list card">
+      <div class="item item-body" ng-include="content.getIncludeFilename()"></div>
+    </div>
+  </ion-content>
+</ion-view>
+

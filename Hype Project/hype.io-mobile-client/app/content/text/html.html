@@ -1,0 +1,33 @@
+<div class="item item-divider item-icon-left">
+  <i class="icon ion-document"></i>
+
+  <h2>{{content.item.title}}</h2>
+  <span ng-show="undefined !== content.item.content.author">- {{content.item.content.author}}</span>
+</div>
+<div class="item item-body">
+  <div ng-bind-html="content.item.content.body" style="text-overflow-ellipsis: true"></div>
+  <p>
+    <a href="#" class="subdued">{{content.item.upvotes}} Likes</a>
+    <a href="#" class="subdued">{{content.item.shares}} Shares</a>
+  </p>
+</div>
+
+<div class="item tabs tabs-secondary tabs-icon-left">
+  <a class="tab-item custom" href="#" ng-click="content.incrementUpvotes(content.item.upvotes)">
+    <i class="icon ion-thumbsup"></i>
+    Like
+  </a>
+  <a class="tab-item custom" href="#" ng-click="content.incrementShares(content.item.shares)">
+    <i class="icon ion-share"></i>
+    Share
+  </a>
+</div>
+
+<div ng-show="content.hasItems(content.item.tags)" class="item item-divider">
+  Tags
+  <div class="item item-divider">
+    <div ng-repeat="tag in content.item.tags" class="tag-item">
+      <a href="#/tag/{{tag}}"><i>{{tag}}</i></a>
+    </div>
+  </div>
+</div>
